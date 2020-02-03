@@ -1,12 +1,13 @@
 {
     "name": "sondagarpankaj/calculator",
-    "description": "This demo package will do some calculations",
-    "authors": [
-        {
-            "name": "Pankaj Sondagar",
-            "email": "sondagarpankaj333@gmail.com"
-        }
-    ],
+    "description": "This is demo package",
+    "type": "composer-plugin",
+    "license": "MIT",
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SondagarPankaj\\Calculator\\": "src"
+        }
+    }
 }
