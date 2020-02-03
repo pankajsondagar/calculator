@@ -1,6 +1,6 @@
 <?php
 
-namespace Pankaj\Calculator;
+namespace SondagarPankaj\Calculator;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;

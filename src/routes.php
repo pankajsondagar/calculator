@@ -1,5 +1,5 @@
 <?php 
-Route::get('add/{a}/{b}', 'Pankaj\Calculator\CalculatorController@add');
-Route::get('subtract/{a}/{b}', 'Pankaj\Calculator\CalculatorController@subtract');
+Route::get('add/{a}/{b}', 'SondagarPankaj\Calculator\CalculatorController@add');
+Route::get('subtract/{a}/{b}', 'SondagarPankaj\Calculator\CalculatorController@subtract');
 
 ?>
