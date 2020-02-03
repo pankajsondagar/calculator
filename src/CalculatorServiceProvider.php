@@ -1,6 +1,6 @@
 <?php
 
-namespace Devdojo\Calculator;
+namespace Pankaj\Calculator;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class CalculatorServiceProvider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->make('Devdojo\Calculator\CalculatorController');
+        $this->app->make('Pankaj\Calculator\CalculatorController');
         $this->loadViewsFrom(__DIR__.'/views', 'calculator');
     }
 

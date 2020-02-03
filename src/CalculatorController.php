@@ -1,6 +1,6 @@
 <?php
 
-namespace Devdojo\Calculator;
+namespace Pankaj\Calculator;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
@@ -17,6 +17,6 @@ class CalculatorController extends Controller
 
     public function subtract($a, $b){
     	echo $a - $b;
-    	
+
     }
 }

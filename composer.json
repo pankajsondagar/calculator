@@ -1,10 +1,10 @@
 {
-    "name": "devdojo/calculator",
+    "name": "pankaj/calculator",
     "description": "This demo package will do some calculations",
     "authors": [
         {
-            "name": "Tony lea",
-            "email": "tony@devdojo.com"
+            "name": "Pankaj Sondagar",
+            "email": "sondagarpankaj333@gmail.com"
         }
     ],
     "minimum-stability": "dev",
